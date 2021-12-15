@@ -23,7 +23,7 @@ public class MobilePhone implements Telephone{
     @Override
     public void answer() {
         if(isRinging && isPowerOn){
-            System.out.println("Answering the Desk phone");
+            System.out.println("Answering the phone");
             isRinging = false;
         }else{
 

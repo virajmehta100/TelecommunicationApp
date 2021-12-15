@@ -9,6 +9,7 @@ public class Main {
 //        myPhone.answer();
 
         MobilePhone myPhone = new MobilePhone("7977424564");
+        myPhone.powerOn();
         myPhone.callPhone("7977424564");
         myPhone.answer();
     }
