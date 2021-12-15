@@ -3,6 +3,9 @@ package com.Package;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	    DeskPhone myPhone = new DeskPhone("7977424564");
+        myPhone.powerOn();
+        myPhone.callPhone("7977424564");
+        myPhone.answer();
     }
 }
